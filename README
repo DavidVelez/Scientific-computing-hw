@@ -1,0 +1,34 @@
+En la clase del 11 de febrero carlos nos enseño a manejar github
+
+Yo David Vélez, me comprometo a no volver a preguntar como se usa:
+1) git clone
+2) git add
+3) git commit
+4) git push
+5) git status (esto debido a luis)
+
+En este repositorio se encuentra la siguiente informacion:
+
+1) Regristo del archivo logistic-basic.py
+
+#Tema:Implementación de funciones.
+#Objetivo:entender la estructura y la implementacion de las funciones para la solución de problemas.
+#Autor:David Felipe Vélez Cadavid
+
+2)  Registro del archivo euler.py
+
+#Tema: implementación de un nuevo mapa logistico para el analisis y solucion de problemas basicos.
+#Objetivo: sacar los datos necesarios mediante la creacion de un nuevo mapa logistico
+#Codigo del dia 23 de febrero; dos funciones g() y f() para un nuevo mapa logistico.
+#Autor: David Felipe Vélez Cadavid
+
+3) Registro del archivo prymes.py
+
+#Tema: utilizacion de mas de una funcion para resolver una aplicacion matematica.
+#Objetivo: manipular funciones que nos presenten un resultado acertado de lo que planteamos en una situacion dada.
+#Resume:
+#esta funcion calcula el numero minimo
+#esta funcion calcula el maximo comun divisor de dos numeros
+#Esta funcion calcula si dos numeros son coprimos
+#Autor: David Felipe Vélez Cadavid.
+
