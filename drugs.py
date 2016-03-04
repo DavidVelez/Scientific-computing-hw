@@ -1,3 +1,7 @@
+#Febrero 25 de 2016
+#Tema: La grafica muestra la concentracion de acetil-salicilico en un tiempo de 10 horas, tal que Q se muestra en ug/mL y t en horas.
+#Objetivo: hallar las ecuaciones pertinentes, determinar las posibles variaciones de decrecimiento de la droga en el organismo.
+#Autor: David Velez.
 
 import numpy
 import matplotlib
