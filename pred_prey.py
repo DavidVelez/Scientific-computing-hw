@@ -1,7 +1,8 @@
 #Marzo 1, 2016
 #Tema: implementacion del modelo de Lokta Volterra en el crecimiento y decrecimiento de plobacion en relacion presa y depredador.
-#Objetivo: determinar el modelo de interraccion de dos especies en relacion al crecimiento y decrecimiento de poblacion, con (x) depredador y (y) presa.
-#Autor: David Felipe Velez Cadavid.
+#Objetivo: determinar el modelo de interraccion de dos especies en relacion al crecimiento y decrecimiento de poblacion, 
+#con (x) depredador y (y) presa.
+#Autor: David Velez.
 
 import numpy
 import matplotlib
