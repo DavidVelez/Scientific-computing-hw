@@ -1,3 +1,7 @@
+#Febrero 16 de 2016
+#Tema: funcion numero minimo, funcion maximo comun divisor y funcion coprimos.
+#Objetivos: utilizar funciones que me ayuden a definir procesos y dar el resultado requerido. 
+#Estrategia: es de considerar que las ecuaciones dependen unas de otras respectivamente.
 #esta funcion calcula el numero minimo
 def minimo(x,y):
 	if x<y:
