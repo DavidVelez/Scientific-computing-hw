@@ -1,3 +1,8 @@
+#Febrero 4 de 2016
+#Tema: mapa logistico.
+#Objetivo: crear las funciones basicas para evaluar el mapa logistico.
+#Autor:David Velez.
+
 import numpy
 import matplotlib
 import matplotlib.pyplot
