@@ -1,7 +1,8 @@
 #Thursday, 3 March 2016
 #Tema: simulacion del modelo de Lorenzs 
-#Objetivo: aplicar las ecuaciones e informacion dada, de manera correcta para llegar a la modelacion del tambien llamado "Caos" utilizado en sistemas fisicos, graficando x en funcion de z.
-#Autor: David Felipe Velez Cadavid
+#Objetivo: aplicar las ecuaciones e informacion dada, de manera correcta para llegar a la modelacion del tambien 
+#llamado "Caos" utilizado en sistemas fisicos, graficando x en funcion de z.
+#Autor: David Velez.
 
 import numpy
 import matplotlib
