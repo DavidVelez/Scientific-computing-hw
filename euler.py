@@ -1,4 +1,8 @@
-#Codigo del dia 23 de febrero; dos funciones g() y f() para un nuevo mapa logistico.
+#Febrero 23 de 2016
+#Tema: funciones g() y f() para un nuevo mapa logistico.
+#Objetivo: utilizar un mapa logistico nuevo para la graficacion y solucion de problemas.
+#Autor: David Velez
+
 import numpy
 import matplotlib
 import matplotlib.pyplot
