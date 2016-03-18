@@ -1,8 +1,8 @@
-#ALGOTIRMO RSA
-#Creado por:
+#Desencriptacion RSA
+#Autor:
 #David Felipe Velez Cadavid
 #Estudiante Computacion Cientifica
-#Universidad de Medellin
+#Universidad de Medellin(UdM)
 
 
 #PROBLEMA NUMERO DOS
@@ -22,25 +22,28 @@ def prime_num(num):
 
 
 #creo una funcion que me desencriptara el mensaje cifrado
-#en esta funcion se procesan e, N y los cuatro numeros daos por el usuario.
+#en esta funcion se procesan e, N y los cuatro numeros dados por el usuario.
 def hackrsa (e, N, n1, n2, n3, n4):
 		
-	for p in range(2,N):#basicamente lo que hacemos es buscar en un rango de 2 a N-1 un p que sea primo
-		for q in range(2,N):#De igual forma hacemos en este rango
-			if primo(p)==1 and primo(q)==1 and p*q == N:#si p y q me cumplen estas condiciones podemos hallar N.
+	for p in range(2,N):#basicamente lo que hacemos es buscar en un rango de 2 a N-1 un p que sea primo tal que el resto sea 1
+		for q in range(2,N):#Buscamos un numero en el rango 2 a N-1 primo tal que el resto sea 1
+			if prime_num(p)==1 and prime_num(q)==1:      
+				if p * q == N:
+					phi = (p-1) * (q-1)# algoritmo de ueler se necesita hallar para encontrar e y d.
+		
 
-		for d in range(phi*2):#
-			  if e * d % phi == 1:
-				d
-				m1 = n1**d%N
-				m2 = n2**d%N
-				m3 = n3**d%N
-				m4 = n4**d%N
-				return n1, n2, n3, n4
+	for d in range(phi):#me genera un rango de 0 a phi-1
 
-
-			
-
+		if e * d % phi == 1:#me genera una condicion que dice que e por d y modulo de phi debe ser uno de phi.
+				d # me returna d es equivalente a decir return e
+				m1 = n1**d%N #toma el primer digito ingresado y lo eleva a la d(sacado del rango y condicional anteriores) 						     modulo de N.
+				m2 = n2**d%N # """""
+				m3 = n3**d%N # """"
+				m4 = n4**d%N # """
+				
+				print "mensaje desencriptado"
+			        print m1,m2,m3,m4
+				print "solo para fines educativos !!"
 
 e=(input ("Por favor ingrese el valor de (e) de la LLave publica generada: " ))
 N=(input ("Por favor ingrese el valor de (N) de la LLave publica generada: "))
