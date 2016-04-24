@@ -1,13 +1,10 @@
 #uncoding: utf-8
-#Borracho
 
-
-import numpy as np
-import random
 
 
 import numpy as np
 import random
+
 
 N=2000		#N=pasos
 B=range(100)  #B=Borrachos
